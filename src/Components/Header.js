@@ -1,17 +1,20 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  let navigate = useNavigate();
+    
   return (
     <header className='flex flex-row bg-grey w-full h-12 items-center justify-center gap-4 font-lato '>
-        <div className='' >
+        <button onClick={() => navigate("/")} >
             Home
-        </div>
-        <div>
-            About
-        </div>
-        <div>
+        </button>
+        <button onClick={() => navigate("/projects")}>
+            Projects
+        </button>
+        <button onClick={() => navigate("/resume")}>
             Resume
-        </div>
+        </button>
     </header>
   )
 }

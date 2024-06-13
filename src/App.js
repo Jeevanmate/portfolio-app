@@ -1,13 +1,19 @@
-import Content from "./Components/Content";
-import Header from "./Components/Header";
+import Home from './pages/Home';
 import './tailwind.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Resume from './pages/Resume';
+import Project from './pages/Project';
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Content/>
-    </div>
-  );
+    return (
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Project />} />
+        </Routes>
+      </Router>
+    );
+
 }
 
 export default App;
