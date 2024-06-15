@@ -2,7 +2,7 @@ import React from 'react'
 import profilePic from '../assests/icons/profilepic.jpeg'
 const Content = () => {
   return (
-      <div className='flex flex-col w-full h-full bg-blue items-center justify-center text-white gap-4 font-lato'>
+      <div className='flex flex-col w-full h-dvh bg-sunset items-center text-white gap-4 font-lato'>
         <div className=''>
           Name: Jeevan Singh
         </div>
