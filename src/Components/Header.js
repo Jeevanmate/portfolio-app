@@ -5,7 +5,7 @@ const Header = () => {
   let navigate = useNavigate();
     
   return (
-    <header className='flex flex-row bg-grey w-full h-12 items-center justify-center gap-4 font-lato '>
+    <header className='flex flex-row bg-charcoal-black w-full h-12 items-center justify-center gap-4 font-lato text-white '>
         <button onClick={() => navigate("/")} >
             Home
         </button>
