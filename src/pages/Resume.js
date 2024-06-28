@@ -2,14 +2,74 @@ import React from 'react'
 import resumePg1 from '../assests/icons/resumePg1.png'
 import resumePg2 from '../assests/icons/resumePg2.png'
 import Header from '../Components/Header'
+import github_img from '../assests/icons/Github.svg'
+import linkedin_img from '../assests/icons/LinkedIN.svg'
+
 const Resume = () => {
   return (
     <>
       <Header/>
-      <img src ={resumePg1} alt = "Page 1" >
-      </img>
-      <img src ={resumePg2} alt = "Page 2" >
-      </img>
+      <div className='flex flex-col items-center'>
+        <div className='text-center'>
+          <h1 className='font-bold text-2xl'>Jeevan Singh</h1>
+          <p>Jeevansingh.professional@gmail.com</p>
+        </div>
+        
+
+        <div className='flex flex-row items-center mb-4 space-x-4 '>
+          <img src={linkedin_img} alt='LinkedIn Icon' className='w-14 h-10 ml-2'></img>
+          <a 
+          href='https://www.linkedin.com/in/jeevan-singh-b27329263/' 
+          className='hover:text-blue font-bold '
+          target='_blank'
+          >
+          
+            LinkedIn
+          </a>
+          <img src={github_img} alt='Github Icon' className='w-20 h-10'>
+          </img>
+          <a 
+          href='https://github.com/Jeevanmate' 
+          className='hover:text-blue font-bold'
+          target='_blank'
+          >
+          Github
+          </a>
+        </div>
+
+        <div className='w-3/4 text-center mb-4'>
+          <h2 className='text-xl font-semibold font-lato'>Ambitions</h2>
+          <p>
+            A passionate and motivated individual eager to learn and gain experience in the advancing IT industry. I aim to enhance and apply my web development skills using various programming languages. My goal is to develop innovative solutions alongside like-minded engineers. Ultimately, I hope to make positive changes in the world by increasing productivity, security, and convenience for users.
+          </p>
+        </div>
+
+        {/* Education */}
+
+        <div className='text-left w-3/4'>
+          <h2 className='text-xl font-semibold'>Education</h2>
+          <div className='flex flex-col'> 
+            <h3 className='font-semibold'>
+              Diploma in Computer Engineering, Temasek Polytechnic(2022-2025)
+            </h3>
+            <p>Director's List(2023/2024 Sem)</p>
+            <p>cCGPA: 3.91 out of 4.0</p>
+            <h3 className='font-semibold'>Completed Modules:</h3>
+            <ul className='list-disc'>
+              <li>Full Stack Development</li>
+              <li>Computer Programming for Problem Solving</li>
+              <li>Artificial Intelligence and Machine Learning</li>
+              <li>Internet of Things Project</li>
+              <li>Intelligent Automation</li>
+              <li>Data Visualization and Analytics</li>
+              <li>Microcontroller Applications</li>
+            </ul>
+          </div>
+          
+        </div>
+        
+      </div>
+      
     </>
   )
 }

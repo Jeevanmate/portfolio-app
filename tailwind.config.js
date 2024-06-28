@@ -12,7 +12,10 @@ module.exports = {
         'sunset':'#FBE0C3',
         'charcoal-black':'#2D2D2D',
         'slate-grey':'#3A3A3A'
-      }
+      },
+      fontFamily: {
+        lato: ["Lato", "sans-serif"],
+      },
     },
   },
   plugins: [],
