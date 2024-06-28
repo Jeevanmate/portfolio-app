@@ -38,8 +38,8 @@ const Resume = () => {
         </div>
 
         <div className='w-3/4 text-center mb-4'>
-          <h2 className='text-xl font-semibold font-lato'>Ambitions</h2>
-          <p>
+          <h2 className='text-xl font-semibold'>Ambitions</h2>
+          <p className='font-lato'>
             A passionate and motivated individual eager to learn and gain experience in the advancing IT industry. I aim to enhance and apply my web development skills using various programming languages. My goal is to develop innovative solutions alongside like-minded engineers. Ultimately, I hope to make positive changes in the world by increasing productivity, security, and convenience for users.
           </p>
         </div>
@@ -65,7 +65,10 @@ const Resume = () => {
               <li>Microcontroller Applications</li>
             </ul>
           </div>
-          
+          <div>
+            <h3 className="font-semibold">PFP – Computer Engineering, Temasek Polytechnic</h3>
+            <p className="">Top 5% in the cohort (2021-2022)</p>
+          </div>
         </div>
         
       </div>
