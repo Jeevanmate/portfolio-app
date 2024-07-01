@@ -4,7 +4,7 @@ import react_img from '../assests/icons/react.svg'
 import tailwindcss_img from '../assests/icons/tailwind_css.svg'
 const Footer = () => {
   return (
-    <footer className='flex justify-center items-center gap-20 bg-slate-grey h-full w-full '>
+    <footer className='flex items-center justify-center gap-20 bg-slate-grey h-screen w-screen '>
         <div className='flex flex-col gap-10'>
             <div className='text-white'>
                 <h1 className='font-bold text-xl'>
