@@ -46,7 +46,7 @@ const Resume = () => {
 
         {/* Education */}
 
-        <div className='text-left w-3/4'>
+        <div className='text-left w-3/4 mb-6'>
           <h2 className='text-xl font-semibold'>Education</h2>
           <div className='flex flex-col'> 
             <h3 className='font-semibold'>
@@ -68,6 +68,22 @@ const Resume = () => {
           <div>
             <h3 className="font-semibold">PFP – Computer Engineering, Temasek Polytechnic</h3>
             <p className="">Top 5% in the cohort (2021-2022)</p>
+          </div>
+          <hr className="bg-blue w-80 h-px"/>
+        </div>
+
+        {/* Projects */}
+        <div className='flex flex-col'>
+          <div className='text-left w-3/4'>
+            <h2 className='text-xl font-semibold'>Projects</h2>
+          </div>
+          <div>
+            <ul className='list-disc pl-5'>
+              <li className='mb-2'>Developed a Sell & Swap Goods full-stack application where users can list their pre-loved<br/> or new items to sell using Microsoft.NET Blazor and Microsoft SQL Server using HTML, CSS, <br/> and JavaScript. Used the MVC Framework and created an ER diagram before coding.</li>
+              <li className='mb-2'>Created a prototype of a CCA Submission System using Java for students to access to view and submit their CCA points along with their achievement status, i.e. Excellent, Very Good, Good, Fair, and Poor using Eclipse</li>
+              <li className='mb-2'>Implemented a smart bakery prototype using a BME280 temperature sensor, humidity sensor, and pressure sensor. Used  Raspberry Pi as an edge device coded using Python.</li>
+              <li className='mb-2'>Prepared and deployed a successful prototype of a water dam emergency system with proper documentation using C language and the PIC16F18877 microcontroller in a team of three.</li>
+            </ul>
           </div>
         </div>
         
