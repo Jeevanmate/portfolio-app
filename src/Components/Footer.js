@@ -2,16 +2,18 @@ import React from 'react'
 import js_img from '../assests/icons/javaScript.svg'
 import react_img from '../assests/icons/react.svg'
 import tailwindcss_img from '../assests/icons/tailwind_css.svg'
+import jest_img from '../assests/icons/jest.png'
+import aws_img from '../assests/icons/AWS.jpg'
 const Footer = () => {
   return (
-    <footer className='flex justify-center items-center gap-20 bg-slate-grey h-full w-full '>
+    <footer className='flex justify-center items-center gap-10 bg-slate-grey'>
         <div className='flex flex-col gap-10 pl-4'>
-            <div className='text-white'>
+            <div className='text-white '>
                 <h1 className='font-bold text-xl'>
                     How to contact me?
                 </h1>
 
-                <p>Gmail: Jeevansingh.professional@gmail.com</p>
+                <a href= "mailto: Jeevansingh.professional@gmail.com" className='hover:text-blue'>Gmail: Jeevansingh.professional@gmail.com</a>
                 <p>Whatsapp: +65 88928586</p>
             </div>
             
@@ -33,14 +35,16 @@ const Footer = () => {
             
 
     
-            <div className='flex flex col text-white'>
+            <div className='flex flex-col gap-10 text-white'>
                 <h1 className = 'font-bold text-xl'>
                     Technologies
                 </h1>
-                <div className='flex flex-col'>
+                <div className='flex flex-wrap'>
                     <img src = {js_img} alt = 'JavaScript Logo' className='rounded-full w-32 h-20'></img>
                     <img src = {react_img} alt = 'React Logo' className='rounded-full w-32 h-20'></img>
                     <img src = {tailwindcss_img} alt = 'Tailwind css Logo' className='rounded-full w-32 h-20'></img>
+                    <img src = {jest_img} alt = "Jest Logo" className='rounded-full w-32 h-20'></img>
+                    <img src = {aws_img} alt = "AWS Logo" className='rounded-full w-32 h-20'></img>
                     
                 </div>
             </div>

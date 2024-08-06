@@ -118,7 +118,7 @@ const Resume = () => {
         {/* Awards/Achievements */}
         <div className='flex flex-col'>
           <h2 className='text-xl font-semibold'>Awards and Achievements</h2>
-          <ul className='list-disc'>
+          <ul className='list-decimal'>
             <li>Director's List 2023/2024</li>
             <li>Edusave Certificate of Good Academic Achievement and Conduct in Computer Engineering</li>
             <li>Edusave Certificate of Good Academic Achievement and Conduct in Computer Engineering</li>
