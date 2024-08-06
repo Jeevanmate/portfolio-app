@@ -5,13 +5,13 @@ import tailwindcss_img from '../assests/icons/tailwind_css.svg'
 const Footer = () => {
   return (
     <footer className='flex justify-center items-center gap-20 bg-slate-grey h-full w-full '>
-        <div className='flex flex-col gap-10'>
+        <div className='flex flex-col gap-10 pl-4'>
             <div className='text-white'>
                 <h1 className='font-bold text-xl'>
                     How to contact me?
                 </h1>
 
-                <p>Gmail: jeevansingh.professional@gmail.com</p>
+                <p>Gmail: Jeevansingh.professional@gmail.com</p>
                 <p>Whatsapp: +65 88928586</p>
             </div>
             
@@ -23,7 +23,7 @@ const Footer = () => {
                     GitHub
                 </a>
                 <h1 className = 'font-bold text-xl'>
-                    Connect with Me on LinkedInt
+                    Connect with Me on LinkedIn
                 </h1>
                 <a href='https://www.linkedin.com/in/jeevan-singh-b27329263/' className='hover:text-blue'>
                     LinkedIN
@@ -32,25 +32,28 @@ const Footer = () => {
         </div>
             
 
-        <div className='flex flex-col text-white '>
-            <h1 className = 'font-bold text-xl'>
-                Technologies
-            </h1>
-            <div className='flex flex-wrap'>
-                <img src = {js_img} alt = 'JavaScript Logo' className='rounded-full w-32 h-20'></img>
-                <img src = {react_img} alt = 'React Logo' className='rounded-full w-32 h-20'></img>
-                <img src = {tailwindcss_img} alt = 'Tailwind css Logo' className='rounded-full w-32 h-20'></img>
-                
+    
+            <div className='flex flex col text-white'>
+                <h1 className = 'font-bold text-xl'>
+                    Technologies
+                </h1>
+                <div className='flex flex-col'>
+                    <img src = {js_img} alt = 'JavaScript Logo' className='rounded-full w-32 h-20'></img>
+                    <img src = {react_img} alt = 'React Logo' className='rounded-full w-32 h-20'></img>
+                    <img src = {tailwindcss_img} alt = 'Tailwind css Logo' className='rounded-full w-32 h-20'></img>
+                    
+                </div>
             </div>
-            
-            <h1 className = 'font-bold text-xl'>
-                About me
-            </h1>
-            <p className=''>
-            A passionate and motivated individual who is open to learning and <br/> looking to gain experience and learn more about the advancing <br/> IT industry, enhance and apply web development skills <br/> using various programming languages, and develop innovative solutions <br/> with a group of like-minded engineers in hopes of eventually <br/> making positive changes to the world by increasing productivity, security, <br/> and convenience for users.
-            </p>
+           
+            <div className='flex flex-col text-white'>
+                <h1 className = 'font-bold text-xl'>
+                    About me
+                </h1>
+                <p className=''>
+                A passionate and motivated individual who is open to learning and <br/> looking to gain experience and learn more about the advancing <br/> IT industry, enhance and apply web development skills <br/> using various programming languages, and develop innovative solutions <br/> with a group of like-minded engineers in hopes of eventually <br/> making positive changes to the world by increasing productivity, security, <br/> and convenience for users.
+                </p>
+            </div>
 
-        </div>
 
     </footer>
   )
