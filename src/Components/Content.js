@@ -9,7 +9,7 @@ const Content = () => {
       <p className='text-lg'>A React Web Developer</p>
     </div>
     <p className='text-center'>
-      Welcome to my portfolio. I am an aspiring front-end web developer currently pursuing a diploma in Computer Engineering at Temasek Polytechnic.
+      Welcome to my portfolio. I am an aspiring front-end web developer currently holding a diploma in Computer Engineering with Merit.
     </p>
   </div>  
   )

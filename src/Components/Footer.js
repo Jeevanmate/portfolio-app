@@ -4,9 +4,9 @@ import react_img from '../assests/icons/react.svg'
 import tailwindcss_img from '../assests/icons/tailwind_css.svg'
 const Footer = () => {
   return (
-    <footer className='flex items-center justify-center gap-20 bg-slate-grey h-screen w-screen '>
+    <footer className='flex items-center justify-center gap-20 bg-slate-grey h-screen w-screen text-white '>
         <div className='flex flex-col gap-10'>
-            <div className='text-white'>
+            <div className=''>
                 <h1 className='font-bold text-xl'>
                     How to contact me?
                 </h1>
@@ -15,7 +15,7 @@ const Footer = () => {
                 <p>Whatsapp: +65 88928586</p>
             </div>
             
-            <div className='flex flex-col text-white'>
+            <div className='flex flex-col'>
                 <h1 className = 'font-bold text-xl'>
                     View my Projects on github
                 </h1>
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
             
 
-        <div className='flex flex-col text-white '>
+        <div className='flex flex-col '>
             <h1 className = 'font-bold text-xl'>
                 Technologies
             </h1>

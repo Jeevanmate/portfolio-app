@@ -1,21 +1,23 @@
-import React from 'react'
-import resumePg1 from '../assests/icons/resumePg1.png'
-import resumePg2 from '../assests/icons/resumePg2.png'
+
 import Header from '../Components/Header'
 import github_img from '../assests/icons/Github.svg'
 import linkedin_img from '../assests/icons/LinkedIN.svg'
+import { CCard, CCardBody } from '@coreui/react'
 
 const Resume = () => {
   return (
     <>
+      
       <Header/>
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col items-center bg-slate-grey h-screen w-screen text-white'>
         <div className='text-center'>
           <h1 className='font-bold text-2xl'>Jeevan Singh</h1>
           <p>Jeevansingh.professional@gmail.com</p>
         </div>
         
-
+        <CCard>
+      <CCardBody>This is some text within a card body.</CCardBody>
+      </CCard>
         <div className='flex flex-row items-center mb-4 space-x-4 '>
           <img src={linkedin_img} alt='LinkedIn Icon' className='w-14 h-10 ml-2'></img>
           <a 
@@ -50,10 +52,15 @@ const Resume = () => {
           <h2 className='text-xl font-semibold'>Education</h2>
           <div className='flex flex-col'> 
             <h3 className='font-semibold'>
+              Degree in Software Engineering with Full Scholarship, Singapore Management University(2027-2030)
+            </h3>
+            <hr className="bg-blue w-screen h-px"/>
+            <h3 className='font-semibold'>
               Diploma in Computer Engineering, Temasek Polytechnic(2022-2025)
             </h3>
             <p>Director's List(2023/2024 Sem)</p>
-            <p>cCGPA: 3.91 out of 4.0</p>
+            <p>cCGPA: 3.93 out of 4.0</p>
+           <hr className="bg-blue w-screen h-px"/>
             <h3 className='font-semibold'>Completed Modules:</h3>
             <ul className='list-disc'>
               <li>Full Stack Development</li>
@@ -65,6 +72,7 @@ const Resume = () => {
               <li>Microcontroller Applications</li>
             </ul>
           </div>
+          <hr className="bg-blue w-80 h-px"/>
           <div>
             <h3 className="font-semibold">PFP – Computer Engineering, Temasek Polytechnic</h3>
             <p className="">Top 5% in the cohort (2021-2022)</p>
@@ -79,6 +87,7 @@ const Resume = () => {
           </div>
           <div>
             <ul className='list-disc pl-5'>
+              <li className='mb-2'>Developed an Anti-theft detection system to deter shop-theft from self-checkout kiosks and supermarkets. Tested and deployed at supermarkets</li>
               <li className='mb-2'>Developed a Sell & Swap Goods full-stack application where users can list their pre-loved<br/> or new items to sell using Microsoft.NET Blazor and Microsoft SQL Server using HTML, CSS, <br/> and JavaScript. Used the MVC Framework and created an ER diagram before coding.</li>
               <li className='mb-2'>Created a prototype of a CCA Submission System using Java for students to access to view and submit their CCA points along with their achievement status, i.e. Excellent, Very Good, Good, Fair, and Poor using Eclipse</li>
               <li className='mb-2'>Implemented a smart bakery prototype using a BME280 temperature sensor, humidity sensor, and pressure sensor. Used  Raspberry Pi as an edge device coded using Python.</li>
