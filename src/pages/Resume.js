@@ -48,7 +48,7 @@ const Resume = () => {
 
         {/* Education */}
 
-        <div className='text-left w-3/4 mb-6'>
+        <div className='text-left w-3/4 mb-6 mr-20'>
           <h2 className='text-xl font-semibold'>Education</h2>
           <div className='flex flex-col'> 
             <h3 className='font-semibold'>
@@ -81,10 +81,8 @@ const Resume = () => {
         </div>
 
         {/* Projects */}
-        <div className='flex flex-col'>
-          <div className='text-left w-3/4'>
-            <h2 className='text-xl font-semibold'>Projects</h2>
-          </div>
+        <div className='flex flex-col pl-20'>
+          <h2 className='text-xl font-semibold'>Projects</h2>
           <div>
             <ul className='list-disc pl-5'>
               <li className='mb-2'>Developed an Anti-theft detection system to deter shop-theft from self-checkout kiosks and supermarkets. Tested and deployed at supermarkets</li>
@@ -95,10 +93,51 @@ const Resume = () => {
             </ul>
           </div>
         </div>
+
+         {/* Skills */}
+
+        <div className='flex flex-row'>
+          <div className='flex flex-col pl-4'>
+            <h2 className='text-xl font-semibold text-left' >Skills</h2>
+            <h3 className='underline'>Technical/Domain Skills</h3>
+            <ul className='list-disc'>
+              <li className='mb-2'>Technologies/Concepts: Microsoft.NET, SQL Server Management Studio, Visual Studio, Blazor Webassembly, Object-Oriented Programming, Model-View-Controller (MVC).</li>
+              <li className='mb-2'>Proficient in programming languages such as Python, C, Java, HTML, CSS, and JavaScript.</li>
+              <li className='mb-2'>Knowledgeable in technologies such as embedded systems, sensors, Bluetooth, and WiFi used within the different open systems interconnection layers.</li>
+              <li className='mb-2'>Skilled in machine learning algorithms such as linear regression, logistic regression, support vector machine, and K nearest neighbor.</li>
+              <li className='mb-2'>Familiar with multiple programming IDEs, debugging, and applications such as Ubuntu (IoT), Anaconda (Artificial Intelligence), and documentation such as datasheets.</li>
+              <li className='mb-2'>Competent in prototyping electronic devices such as the Raspberry Pi  and soldering on Vero boards.</li>
+            </ul>
+          </div>
+
+          <div className='pl-4 mt-6'>
+            <h3 className='underline'>Generic Skills</h3>
+            <ul className='list-disc'>
+              <li className='mb-2'>Exemplary organizational skills, optimizing project workflows and timelines for efficient tech project management success.</li>
+              <li className='mb-2'>Spearheaded multiple group projects at Polytechnic.</li>
+              <li className='mb-2'>Effective and confident speaker in a team-based setting with leadership capabilities.</li>
+              <li className='mb-2'>Experienced doing leadership tasks such as delegating tasks, calling meetings, giving constructive feedback, and resolving internal issues.</li>
+              <li className='mb-2'>Accustomed to working under pressure, used to working on numerous projects simultaneously with back-to-back submission deadlines.</li>
+              <li className='mb-2'>Flexible and able to adapt to different scenarios.</li>
+              <li className='mb-2'>Worked closely with various teams of fours and fives and encouraged the culture of giving constructive feedback to produce the best content to our ability.</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Awards/Achievements */}
+        <div className='flex flex-col'>
+          <h2 className='text-xl font-semibold'>Awards and Achievements</h2>
+          <ul className='list-decimal'>
+            <li>Director's List 2023/2024</li>
+            <li>Edusave Certificate of Good Academic Achievement and Conduct in Computer Engineering</li>
+            <li>Edusave Certificate of Good Academic Achievement and Conduct in Computer Engineering</li>
+          </ul>
+        </div>
+
+
         
       </div>
-      
-    </>
+      </>
   )
 }
 
